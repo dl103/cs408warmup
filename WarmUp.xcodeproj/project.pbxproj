@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC491F9417E7A03E004EDF1A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC491F9317E7A03E004EDF1A /* UIKit.framework */; };
+		EC491F9617E7A03E004EDF1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC491F9517E7A03E004EDF1A /* Foundation.framework */; };
+		EC491F9817E7A03E004EDF1A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC491F9717E7A03E004EDF1A /* CoreGraphics.framework */; };
+		EC491F9E17E7A03E004EDF1A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC491F9C17E7A03E004EDF1A /* InfoPlist.strings */; };
+		EC491FA017E7A03E004EDF1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC491F9F17E7A03E004EDF1A /* main.m */; };
+		EC491FA417E7A03E004EDF1A /* lelabsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC491FA317E7A03E004EDF1A /* lelabsAppDelegate.m */; };
+		EC491FA617E7A03E004EDF1A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EC491FA517E7A03E004EDF1A /* Default.png */; };
+		EC491FA817E7A03E004EDF1A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC491FA717E7A03E004EDF1A /* Default@2x.png */; };
+		EC491FAA17E7A03E004EDF1A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC491FA917E7A03E004EDF1A /* Default-568h@2x.png */; };
+		EC491FAD17E7A03E004EDF1A /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC491FAB17E7A03E004EDF1A /* MainStoryboard_iPhone.storyboard */; };
+		EC491FB017E7A03E004EDF1A /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC491FAE17E7A03E004EDF1A /* MainStoryboard_iPad.storyboard */; };
+		EC491FB317E7A03E004EDF1A /* lelabsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC491FB217E7A03E004EDF1A /* lelabsViewController.m */; };
+		EC491FBB17E7A03E004EDF1A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC491FBA17E7A03E004EDF1A /* SenTestingKit.framework */; };
+		EC491FBC17E7A03E004EDF1A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC491F9317E7A03E004EDF1A /* UIKit.framework */; };
+		EC491FBD17E7A03E004EDF1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC491F9517E7A03E004EDF1A /* Foundation.framework */; };
+		EC491FC517E7A03E004EDF1A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC491FC317E7A03E004EDF1A /* InfoPlist.strings */; };
+		EC491FC817E7A03E004EDF1A /* WarmUpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC491FC717E7A03E004EDF1A /* WarmUpTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC491FBE17E7A03E004EDF1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC491F8817E7A03E004EDF1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC491F8F17E7A03E004EDF1A;
+			remoteInfo = WarmUp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC491F9017E7A03E004EDF1A /* WarmUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarmUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC491F9317E7A03E004EDF1A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EC491F9517E7A03E004EDF1A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EC491F9717E7A03E004EDF1A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EC491F9B17E7A03E004EDF1A /* WarmUp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WarmUp-Info.plist"; sourceTree = "<group>"; };
+		EC491F9D17E7A03E004EDF1A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC491F9F17E7A03E004EDF1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC491FA117E7A03E004EDF1A /* WarmUp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WarmUp-Prefix.pch"; sourceTree = "<group>"; };
+		EC491FA217E7A03E004EDF1A /* lelabsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lelabsAppDelegate.h; sourceTree = "<group>"; };
+		EC491FA317E7A03E004EDF1A /* lelabsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lelabsAppDelegate.m; sourceTree = "<group>"; };
+		EC491FA517E7A03E004EDF1A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EC491FA717E7A03E004EDF1A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EC491FA917E7A03E004EDF1A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EC491FAC17E7A03E004EDF1A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		EC491FAF17E7A03E004EDF1A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		EC491FB117E7A03E004EDF1A /* lelabsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lelabsViewController.h; sourceTree = "<group>"; };
+		EC491FB217E7A03E004EDF1A /* lelabsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lelabsViewController.m; sourceTree = "<group>"; };
+		EC491FB917E7A03E004EDF1A /* WarmUpTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WarmUpTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC491FBA17E7A03E004EDF1A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		EC491FC217E7A03E004EDF1A /* WarmUpTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WarmUpTests-Info.plist"; sourceTree = "<group>"; };
+		EC491FC417E7A03E004EDF1A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC491FC617E7A03E004EDF1A /* WarmUpTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WarmUpTests.h; sourceTree = "<group>"; };
+		EC491FC717E7A03E004EDF1A /* WarmUpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WarmUpTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC491F8D17E7A03E004EDF1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC491F9417E7A03E004EDF1A /* UIKit.framework in Frameworks */,
+				EC491F9617E7A03E004EDF1A /* Foundation.framework in Frameworks */,
+				EC491F9817E7A03E004EDF1A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC491FB517E7A03E004EDF1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC491FBB17E7A03E004EDF1A /* SenTestingKit.framework in Frameworks */,
+				EC491FBC17E7A03E004EDF1A /* UIKit.framework in Frameworks */,
+				EC491FBD17E7A03E004EDF1A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC491F8717E7A03E004EDF1A = {
+			isa = PBXGroup;
+			children = (
+				EC491F9917E7A03E004EDF1A /* WarmUp */,
+				EC491FC017E7A03E004EDF1A /* WarmUpTests */,
+				EC491F9217E7A03E004EDF1A /* Frameworks */,
+				EC491F9117E7A03E004EDF1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC491F9117E7A03E004EDF1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC491F9017E7A03E004EDF1A /* WarmUp.app */,
+				EC491FB917E7A03E004EDF1A /* WarmUpTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC491F9217E7A03E004EDF1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC491F9317E7A03E004EDF1A /* UIKit.framework */,
+				EC491F9517E7A03E004EDF1A /* Foundation.framework */,
+				EC491F9717E7A03E004EDF1A /* CoreGraphics.framework */,
+				EC491FBA17E7A03E004EDF1A /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC491F9917E7A03E004EDF1A /* WarmUp */ = {
+			isa = PBXGroup;
+			children = (
+				EC491FA217E7A03E004EDF1A /* lelabsAppDelegate.h */,
+				EC491FA317E7A03E004EDF1A /* lelabsAppDelegate.m */,
+				EC491FAB17E7A03E004EDF1A /* MainStoryboard_iPhone.storyboard */,
+				EC491FAE17E7A03E004EDF1A /* MainStoryboard_iPad.storyboard */,
+				EC491FB117E7A03E004EDF1A /* lelabsViewController.h */,
+				EC491FB217E7A03E004EDF1A /* lelabsViewController.m */,
+				EC491F9A17E7A03E004EDF1A /* Supporting Files */,
+			);
+			path = WarmUp;
+			sourceTree = "<group>";
+		};
+		EC491F9A17E7A03E004EDF1A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC491F9B17E7A03E004EDF1A /* WarmUp-Info.plist */,
+				EC491F9C17E7A03E004EDF1A /* InfoPlist.strings */,
+				EC491F9F17E7A03E004EDF1A /* main.m */,
+				EC491FA117E7A03E004EDF1A /* WarmUp-Prefix.pch */,
+				EC491FA517E7A03E004EDF1A /* Default.png */,
+				EC491FA717E7A03E004EDF1A /* Default@2x.png */,
+				EC491FA917E7A03E004EDF1A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC491FC017E7A03E004EDF1A /* WarmUpTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC491FC617E7A03E004EDF1A /* WarmUpTests.h */,
+				EC491FC717E7A03E004EDF1A /* WarmUpTests.m */,
+				EC491FC117E7A03E004EDF1A /* Supporting Files */,
+			);
+			path = WarmUpTests;
+			sourceTree = "<group>";
+		};
+		EC491FC117E7A03E004EDF1A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC491FC217E7A03E004EDF1A /* WarmUpTests-Info.plist */,
+				EC491FC317E7A03E004EDF1A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC491F8F17E7A03E004EDF1A /* WarmUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC491FCB17E7A03E004EDF1A /* Build configuration list for PBXNativeTarget "WarmUp" */;
+			buildPhases = (
+				EC491F8C17E7A03E004EDF1A /* Sources */,
+				EC491F8D17E7A03E004EDF1A /* Frameworks */,
+				EC491F8E17E7A03E004EDF1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WarmUp;
+			productName = WarmUp;
+			productReference = EC491F9017E7A03E004EDF1A /* WarmUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC491FB817E7A03E004EDF1A /* WarmUpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC491FCE17E7A03E004EDF1A /* Build configuration list for PBXNativeTarget "WarmUpTests" */;
+			buildPhases = (
+				EC491FB417E7A03E004EDF1A /* Sources */,
+				EC491FB517E7A03E004EDF1A /* Frameworks */,
+				EC491FB617E7A03E004EDF1A /* Resources */,
+				EC491FB717E7A03E004EDF1A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC491FBF17E7A03E004EDF1A /* PBXTargetDependency */,
+			);
+			name = WarmUpTests;
+			productName = WarmUpTests;
+			productReference = EC491FB917E7A03E004EDF1A /* WarmUpTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC491F8817E7A03E004EDF1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = lelabs;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Le Labs";
+			};
+			buildConfigurationList = EC491F8B17E7A03E004EDF1A /* Build configuration list for PBXProject "WarmUp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EC491F8717E7A03E004EDF1A;
+			productRefGroup = EC491F9117E7A03E004EDF1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC491F8F17E7A03E004EDF1A /* WarmUp */,
+				EC491FB817E7A03E004EDF1A /* WarmUpTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC491F8E17E7A03E004EDF1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC491F9E17E7A03E004EDF1A /* InfoPlist.strings in Resources */,
+				EC491FA617E7A03E004EDF1A /* Default.png in Resources */,
+				EC491FA817E7A03E004EDF1A /* Default@2x.png in Resources */,
+				EC491FAA17E7A03E004EDF1A /* Default-568h@2x.png in Resources */,
+				EC491FAD17E7A03E004EDF1A /* MainStoryboard_iPhone.storyboard in Resources */,
+				EC491FB017E7A03E004EDF1A /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC491FB617E7A03E004EDF1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC491FC517E7A03E004EDF1A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EC491FB717E7A03E004EDF1A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC491F8C17E7A03E004EDF1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC491FA017E7A03E004EDF1A /* main.m in Sources */,
+				EC491FA417E7A03E004EDF1A /* lelabsAppDelegate.m in Sources */,
+				EC491FB317E7A03E004EDF1A /* lelabsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC491FB417E7A03E004EDF1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC491FC817E7A03E004EDF1A /* WarmUpTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC491FBF17E7A03E004EDF1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC491F8F17E7A03E004EDF1A /* WarmUp */;
+			targetProxy = EC491FBE17E7A03E004EDF1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC491F9C17E7A03E004EDF1A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC491F9D17E7A03E004EDF1A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EC491FAB17E7A03E004EDF1A /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC491FAC17E7A03E004EDF1A /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		EC491FAE17E7A03E004EDF1A /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC491FAF17E7A03E004EDF1A /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		EC491FC317E7A03E004EDF1A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC491FC417E7A03E004EDF1A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC491FC917E7A03E004EDF1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC491FCA17E7A03E004EDF1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC491FCC17E7A03E004EDF1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WarmUp/WarmUp-Prefix.pch";
+				INFOPLIST_FILE = "WarmUp/WarmUp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EC491FCD17E7A03E004EDF1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WarmUp/WarmUp-Prefix.pch";
+				INFOPLIST_FILE = "WarmUp/WarmUp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EC491FCF17E7A03E004EDF1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WarmUp.app/WarmUp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WarmUp/WarmUp-Prefix.pch";
+				INFOPLIST_FILE = "WarmUpTests/WarmUpTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		EC491FD017E7A03E004EDF1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WarmUp.app/WarmUp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WarmUp/WarmUp-Prefix.pch";
+				INFOPLIST_FILE = "WarmUpTests/WarmUpTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC491F8B17E7A03E004EDF1A /* Build configuration list for PBXProject "WarmUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC491FC917E7A03E004EDF1A /* Debug */,
+				EC491FCA17E7A03E004EDF1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC491FCB17E7A03E004EDF1A /* Build configuration list for PBXNativeTarget "WarmUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC491FCC17E7A03E004EDF1A /* Debug */,
+				EC491FCD17E7A03E004EDF1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC491FCE17E7A03E004EDF1A /* Build configuration list for PBXNativeTarget "WarmUpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC491FCF17E7A03E004EDF1A /* Debug */,
+				EC491FD017E7A03E004EDF1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC491F8817E7A03E004EDF1A /* Project object */;
+}
