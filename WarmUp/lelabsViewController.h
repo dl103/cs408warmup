@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface lelabsViewController : UIViewController
+//- (IBAction)loginButton:(UIBarButtonItem *)sender;
+//- (IBAction) backgroundClick:(id)sender;
 
 @end

@@ -7,12 +7,14 @@
 //
 
 #import "lelabsViewController.h"
-
 @interface lelabsViewController ()
-
+@property (weak, nonatomic) IBOutlet UITextField *testUsername;
+@property (weak, nonatomic) IBOutlet UITextField *testPassword;
 @end
 
 @implementation lelabsViewController
+@synthesize testUsername;
+@synthesize testPassword;
 
 - (void)viewDidLoad
 {
@@ -26,4 +28,16 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)loginButton:(UIBarButtonItem *)sender {
+    if([testUsername.text isEqualToString:@"admin"] && [testPassword.text isEqualToString:@"admin"]) {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Congratulations"
+                                                        message:@"Login successful!"
+                                                       delegate:nil
+                                              cancelButtonTitle:@"OK"
+                                              otherButtonTitles:nil];
+        [alert show];
+    }
+}
+- (IBAction)backgroundClick:(id)sender {
+}
 @end
