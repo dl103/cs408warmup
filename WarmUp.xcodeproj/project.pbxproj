@@ -24,6 +24,7 @@
 		EC491FBD17E7A03E004EDF1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC491F9517E7A03E004EDF1A /* Foundation.framework */; };
 		EC491FC517E7A03E004EDF1A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC491FC317E7A03E004EDF1A /* InfoPlist.strings */; };
 		EC491FC817E7A03E004EDF1A /* WarmUpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC491FC717E7A03E004EDF1A /* WarmUpTests.m */; };
+		EC72986B17F2A50B008B7C71 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EC72986A17F2A50B008B7C71 /* libsqlite3.0.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		EC491FC417E7A03E004EDF1A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EC491FC617E7A03E004EDF1A /* WarmUpTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WarmUpTests.h; sourceTree = "<group>"; };
 		EC491FC717E7A03E004EDF1A /* WarmUpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WarmUpTests.m; sourceTree = "<group>"; };
+		EC72986817F2A4FE008B7C71 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		EC72986A17F2A50B008B7C71 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC72986B17F2A50B008B7C71 /* libsqlite3.0.dylib in Frameworks */,
 				EC491F9417E7A03E004EDF1A /* UIKit.framework in Frameworks */,
 				EC491F9617E7A03E004EDF1A /* Foundation.framework in Frameworks */,
 				EC491F9817E7A03E004EDF1A /* CoreGraphics.framework in Frameworks */,
@@ -89,6 +93,8 @@
 		EC491F8717E7A03E004EDF1A = {
 			isa = PBXGroup;
 			children = (
+				EC72986A17F2A50B008B7C71 /* libsqlite3.0.dylib */,
+				EC72986817F2A4FE008B7C71 /* libsqlite3.dylib */,
 				EC491F9917E7A03E004EDF1A /* WarmUp */,
 				EC491FC017E7A03E004EDF1A /* WarmUpTests */,
 				EC491F9217E7A03E004EDF1A /* Frameworks */,
@@ -468,6 +474,7 @@
 				EC491FCD17E7A03E004EDF1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC491FCE17E7A03E004EDF1A /* Build configuration list for PBXNativeTarget "WarmUpTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +483,7 @@
 				EC491FD017E7A03E004EDF1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

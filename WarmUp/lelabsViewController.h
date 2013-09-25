@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "/usr/include/sqlite3.h"
 
-@interface lelabsViewController : UIViewController
+@interface lelabsViewController : UIViewController{
+    sqlite3 *loginDB;
+}
+
 //- (IBAction)loginButton:(UIBarButtonItem *)sender;
 //- (IBAction) backgroundClick:(id)sender;
+
 
 @end
